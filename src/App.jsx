@@ -1,13 +1,29 @@
-import Header from './components/Header'
-import Login from './components/Login'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+
+import Home from './pages/Home'
+import Browse from './pages/Browse'
+import NetflixGPT from './pages/NetflixGPT'
 
 function App() {
 
+
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element:<Home />
+    },
+    {
+      path:'/browse',
+      element:<Browse />
+    },
+    {
+      path:'/netflixGPT',
+      element:<NetflixGPT />
+    }
+  ])
+
   return (
-    <>
-      <Header />
-      <Login />
-    </>
+    <RouterProvider router={router} />
   )
 }
 

@@ -2,6 +2,8 @@
 
 - setup react app using vite
 - configured tailwindcss
+- configured react-router-dom
+- build UI for sign in and sign up page
 
 # features
 
