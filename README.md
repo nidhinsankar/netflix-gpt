@@ -4,6 +4,13 @@
 - configured tailwindcss
 - configured react-router-dom
 - build UI for sign in and sign up page
+- validation of forms using regex 
+- setup firebase 
+- implemented email / password signin/signup feature in the app
+- onAuthStateChanged is setup in root file
+- implemeneted signout feature
+- route to browse page when signin / signup happens
+
 
 # features
 
