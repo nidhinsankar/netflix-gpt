@@ -10,7 +10,8 @@
 - onAuthStateChanged is setup in root file
 - implemeneted signout feature
 - route to browse page when signin / signup happens
-
+- Bugfix when routing to login and browse pages
+- cleanup onAuthStateChanged event listener
 
 # features
 
@@ -30,3 +31,9 @@
 
    - SearchBar
    - Movie suggestions
+
+
+notes
+
+- create a tmdb account
+- register the app create apikey

@@ -1,0 +1,1 @@
+export const USER_AVATAR = "https://example.com/jane-q-user/profile.jpg"
