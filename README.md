@@ -18,6 +18,8 @@
 - used movies and videos api for fetching movies, trailers to use in browse
 - created movies in redux store for storing data related movies and trailer
 - created videoplayer background component in the browse page
+- created env file to store the api keys data
+
 
 # features
 
