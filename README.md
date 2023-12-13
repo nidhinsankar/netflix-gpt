@@ -19,6 +19,9 @@
 - created movies in redux store for storing data related movies and trailer
 - created videoplayer background component in the browse page
 - created env file to store the api keys data
+- created Now playing, top rated, ,upcoming, popular movies horizontal list container UI in browse page
+- fetched data from api for Now playing, top rated, ,upcoming ,popular movies
+- used redux store to manage the api data  
 
 
 # features

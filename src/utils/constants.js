@@ -7,5 +7,7 @@ export const options = {
       accept: 'application/json',
       Authorization: 'Bearer '+import.meta.env.VITE_TMDB_BEARER_TOKEN
     }
-  };
-  
+};
+
+export const IMG_CDN = 'https://image.tmdb.org/t/p/w500/'
+
