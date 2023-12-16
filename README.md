@@ -22,7 +22,7 @@
 - created Now playing, top rated, ,upcoming, popular movies horizontal list container UI in browse page
 - fetched data from api for Now playing, top rated, ,upcoming ,popular movies
 - used redux store to manage the api data  
-
+- search-gpt toggle button in browse page
 
 # features
 
@@ -48,3 +48,4 @@ notes
 
 - create a tmdb account
 - register the app create apikey
+- need to do multi langauge feature

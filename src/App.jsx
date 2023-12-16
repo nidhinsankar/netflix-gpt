@@ -10,15 +10,11 @@ function App() {
   const router = createBrowserRouter([
     {
       path:'/',
-      element:<Home />
+      element:<Home />,
     },
     {
       path:'/browse',
       element:<Browse />
-    },
-    {
-      path:'/netflixGPT',
-      element:<NetflixGPT />
     }
   ])
 
