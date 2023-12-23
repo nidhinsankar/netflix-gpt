@@ -5,6 +5,8 @@ const searchGptSlice = createSlice({
     name:'searchGPT',
     initialState:{
         gptPage:false,
+        moviesNames:null,
+        moviesList:null
     },
     reducers:{
         showGptPage:(state) =>{
@@ -12,9 +14,14 @@ const searchGptSlice = createSlice({
         },
         closeGptPage:(state) => {
             state.gptPage = false
+        },
+        addMovieDetails:(state,action)=>{
+            const {moviesNames, moviesList} = action.payload;
+            state.moviesNames = moviesNames;
+            state.moviesList = moviesList
         }
     }
 })
 
-export const { showGptPage,closeGptPage } = searchGptSlice.actions
+export const { showGptPage,closeGptPage,addMovieDetails } = searchGptSlice.actions
 export default searchGptSlice.reducer

@@ -23,6 +23,10 @@
 - fetched data from api for Now playing, top rated, ,upcoming ,popular movies
 - used redux store to manage the api data  
 - search-gpt toggle button in browse page
+- integrated openai text based search api in the searchbar to suggest movies
+- searching the movies suggested by openai api using tmdb api
+- using redux to store the result given by openai and tmdb
+- displayed the movies using CategoryContainer and MovieCard components which is already created
 
 # features
 
@@ -48,4 +52,9 @@ notes
 
 - create a tmdb account
 - register the app create apikey
+- register and get openai apikey
+
+# Todo
 - need to do multi langauge feature
+- proper error handling for gpt results 
+- create a details page when clicking on a movie in a movie list
