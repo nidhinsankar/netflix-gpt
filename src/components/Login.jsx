@@ -64,7 +64,7 @@ const Login = () => {
 
     return (
         <div className="relative h-screen w-full flex justify-center items-center bg-black bg-opacity-30">
-            <img src={banner} alt="netflix-banner" className='absolute -z-20 h-screen w-full' />
+            <img src={banner} alt="netflix-banner" className='absolute -z-20 h-screen w-full object-cover' />
             <div className='mt-5 md:w-[60%] lg:w-[25%] bg-black bg-opacity-70 rounded-md'>
                 <form onSubmit={e => e.preventDefault()} className='w-[90%] flex flex-col mx-auto gap-y-3 py-16 md:py-20'>
                     <h3 className='font-bold text-4xl leading-5 text-white'>{isSignUpForm ? 'Sign Up':'Sign In'}</h3> 
